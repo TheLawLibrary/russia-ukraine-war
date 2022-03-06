@@ -1,4 +1,13 @@
 
+@font-face {
+  font-family: old-standard-regular;
+  src: url(/fonts/old-standard/regular.otf);
+}
+
+html * {
+  font-family:old-standard-regular;
+}
+
 .indent_1 {
   padding-left:0.25in;
 }
