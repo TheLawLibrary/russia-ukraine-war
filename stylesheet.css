@@ -4,8 +4,17 @@
   src: url(/fonts/old-standard/regular.otf);
 }
 
-html * {
+@font-face {
+  font-family: old-standard-italic;
+  src: url(/fonts/old-standard/italic.otf);
+}
+
+div {
   font-family:old-standard-regular;
+}
+
+i {
+  font-family:old-standard-italic;
 }
 
 .indent_1 {
