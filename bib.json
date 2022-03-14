@@ -1,8 +1,10 @@
 [
   {
     "date":"2022-02-21",
-    "title":"Speech by the President of the Russian Federation Recognizing the Independence and Sovereignty of the Donetsk People's Republic and the Lugansk People's Republic",
     "author":"Vladimir V. Putin",
+    "titles":[
+      "Speech by the President of the Russian Federation Recognizing the Independence and Sovereignty of the Donetsk People's Republic and the Lugansk People's Republic"
+    ],
     "citations":"Vladimir V. Putin, President of the Russian Federation, Speech Recognizing the Independence and Sovereignty of the Donetsk People's Republic and the Lugansk People's Republic (Feb. 21, 2022), http://en.kremlin.ru/events/president/news/67828.",
     "links":[
       {"kremlin_webpage": {
@@ -19,11 +21,11 @@
 
   {
     "date":"2022-02-21",
+    "author":"Joseph R. Biden, Jr.",
     "titles":[
       "Executive Order 14065",
       "Blocking Property of Certain Persons and Prohibiting Certain Transactions With Respect to Continued Russian Efforts To Undermine the Sovereignty and Territorial Integrity of Ukraine"
     ],
-    "author":"Joseph R. Biden, Jr.",
     "links": [
       {"white_house_webpage": {
         "original":"https://www.whitehouse.gov/briefing-room/presidential-actions/2022/02/21/executive-order-on-blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued-russian-efforts-to-undermine-the-sovereignty-and-territorial-integrity-of-ukraine/",
@@ -52,6 +54,46 @@
         "html_reprint":""
       }
     }
+    ]
+  },
+
+  {
+    "date":"2022-03-08",
+    "author":"Council on the European Union",
+    "titles":"Invitation Letter by President Charles Michel to the Members of the European Council Ahead of Their Informal Meeting of 10 and 11 March 2022",
+    "links":[
+      {
+        "press_release_webpage": {
+          "original":"https://www.consilium.europa.eu/en/press/press-releases/2022/03/08/invitation-letter-by-president-charles-michel-to-the-members-of-the-european-council-ahead-of-their-informal-meeting-of-10-and-11-march-2022/",
+          "wayback_machine":"https://web.archive.org/web/20220311004343/https://www.consilium.europa.eu/en/press/press-releases/2022/03/08/invitation-letter-by-president-charles-michel-to-the-members-of-the-european-council-ahead-of-their-informal-meeting-of-10-and-11-march-2022/",
+          "archive_today":"https://archive.ph/l1wEc",
+          "printed_pdf":"",
+          "local_pdf":"",
+          "html_reprint":""
+        }
+      },
+
+      {
+        "press_release_pdf": {
+          "original":"https://www.consilium.europa.eu/en/press/press-releases/2022/03/08/invitation-letter-by-president-charles-michel-to-the-members-of-the-european-council-ahead-of-their-informal-meeting-of-10-and-11-march-2022/pdf",
+          "wayback_machine":"https://web.archive.org/web/20220314013902/https://www.consilium.europa.eu/en/press/press-releases/2022/03/08/invitation-letter-by-president-charles-michel-to-the-members-of-the-european-council-ahead-of-their-informal-meeting-of-10-and-11-march-2022/pdf",
+          "archive_today":"",
+          "printed_pdf":"",
+          "local_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-03-08-eu-press-release-223-22.pdf",
+          "html_reprint":""
+        }
+      },
+
+      {
+        "invitation_letter_pdf": {
+          "original":"https://www.consilium.europa.eu/media/54747/president-michel-s-invitation-letter-to-the-informal-euco-on-10-11-march-2022.pdf",
+          "wayback_machine":"https://web.archive.org/web/20220310142445/https://www.consilium.europa.eu/media/54747/president-michel-s-invitation-letter-to-the-informal-euco-on-10-11-march-2022.pdf",
+          "archive_today":"",
+          "printed_pdf":"",
+          "local_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-03-08-eu-michel-invitation-letter.pdf",
+          "html_reprint":""
+        }
+      }
     ]
   }
 
