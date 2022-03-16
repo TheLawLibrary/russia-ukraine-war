@@ -7,13 +7,14 @@
     ],
     "citations":"Vladimir V. Putin, President of the Russian Federation, Speech Recognizing the Independence and Sovereignty of the Donetsk People's Republic and the Lugansk People's Republic (Feb. 21, 2022), http://en.kremlin.ru/events/president/news/67828.",
     "links":[
-      {"kremlin_webpage": {
-        "original":"http://en.kremlin.ru/events/president/news/67828",
-        "wayback_machine":"https://web.archive.org/web/20220223044930/http://en.kremlin.ru/events/president/news/67828",
-        "archive_today":"https://archive.ph/WgD7u",
-        "printed_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-ru-putin-speech.pdf",
-        "local_pdf":"",
-        "html_reprint":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-ru-putin-speech.html"
+      {
+        "kremlin_webpage": {
+          "original":"http://en.kremlin.ru/events/president/news/67828",
+          "wayback_machine":"https://web.archive.org/web/20220223044930/http://en.kremlin.ru/events/president/news/67828",
+          "archive_today":"https://archive.ph/WgD7u",
+          "printed_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-ru-putin-speech.pdf",
+          "local_pdf":"",
+          "html_reprint":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-ru-putin-speech.html"
         }
       }
     ]
@@ -26,34 +27,40 @@
       "Executive Order 14065",
       "Blocking Property of Certain Persons and Prohibiting Certain Transactions With Respect to Continued Russian Efforts To Undermine the Sovereignty and Territorial Integrity of Ukraine"
     ],
+    "citations":"Exec. Order 14,065, reprinted in 87 Fed. Reg. 10293 (Feb. 21, 2022)",
     "links": [
-      {"white_house_webpage": {
-        "original":"https://www.whitehouse.gov/briefing-room/presidential-actions/2022/02/21/executive-order-on-blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued-russian-efforts-to-undermine-the-sovereignty-and-territorial-integrity-of-ukraine/",
-        "wayback_machine":"https://web.archive.org/web/20220314002314/https://www.whitehouse.gov/briefing-room/presidential-actions/2022/02/21/executive-order-on-blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued-russian-efforts-to-undermine-the-sovereignty-and-territorial-integrity-of-ukraine/",
-        "archive_today":"https://archive.ph/Tbglk",
-        "printed_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-us-potus-eo-14065-wh.pdf",
-        "local_pdf":"",
-        "html_reprint":""
+      {
+        "white_house_webpage": {
+          "original":"https://www.whitehouse.gov/briefing-room/presidential-actions/2022/02/21/executive-order-on-blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued-russian-efforts-to-undermine-the-sovereignty-and-territorial-integrity-of-ukraine/",
+          "wayback_machine":"https://web.archive.org/web/20220314002314/https://www.whitehouse.gov/briefing-room/presidential-actions/2022/02/21/executive-order-on-blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued-russian-efforts-to-undermine-the-sovereignty-and-territorial-integrity-of-ukraine/",
+          "archive_today":"https://archive.ph/Tbglk",
+          "printed_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-us-potus-eo-14065-wh.pdf",
+          "local_pdf":"",
+          "html_reprint":""
         }
       },
-      {"federal_register_webpage_published": {
-        "original": "https://www.federalregister.gov/documents/2022/02/23/2022-04020/blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued",
-        "wayback_machine":"https://web.archive.org/web/20220306002239/https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2022%2F02%2F23%2F2022-04020%2Fblocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued",
-        "archive_today":"https://archive.ph/WhtUj",
-        "printed_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-us-potus-eo-14065-fed-reg-webpage.pdf",
-        "local_pdf":"",
-        "html_reprint":""}
+      
+      {
+        "federal_register_webpage_published": {
+          "original": "https://www.federalregister.gov/documents/2022/02/23/2022-04020/blocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued",
+          "wayback_machine":"https://web.archive.org/web/20220306002239/https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2022%2F02%2F23%2F2022-04020%2Fblocking-property-of-certain-persons-and-prohibiting-certain-transactions-with-respect-to-continued",
+          "archive_today":"https://archive.ph/WhtUj",
+          "printed_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-us-potus-eo-14065-fed-reg-webpage.pdf",
+          "local_pdf":"",
+          "html_reprint":""
+        }
       },
       
-      {"federal_register_pdf_published": {
-        "original":"https://www.govinfo.gov/content/pkg/FR-2022-02-23/pdf/2022-04020.pdf",
-        "wayback_machine":"https://web.archive.org/web/20220306072347/https://www.govinfo.gov/content/pkg/FR-2022-02-23/pdf/2022-04020.pdf",
-        "archive_today":"",
-        "printed_pdf":"",
-        "local_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-us-potus-eo-14065-87-fed-reg-10293.pdf",
-        "html_reprint":""
+      {
+        "federal_register_pdf_published": {
+          "original":"https://www.govinfo.gov/content/pkg/FR-2022-02-23/pdf/2022-04020.pdf",
+          "wayback_machine":"https://web.archive.org/web/20220306072347/https://www.govinfo.gov/content/pkg/FR-2022-02-23/pdf/2022-04020.pdf",
+          "archive_today":"",
+          "printed_pdf":"",
+          "local_pdf":"https://www.thelawlibrary.github.io/russia-ukraine-war/files/2022-02-21-us-potus-eo-14065-87-fed-reg-10293.pdf",
+          "html_reprint":""
+        }
       }
-    }
     ]
   },
 
@@ -94,7 +101,9 @@
           "html_reprint":""
         }
       }
-    ]
-  }
 
+    ]
+
+  }
+  
 ]
