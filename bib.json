@@ -1,4 +1,25 @@
 [
+  
+  {
+    
+    "date": "",
+    "jurisdiction": "",
+    "authors": [""],
+    "titles": [""],
+    "citations": "",
+    "media":[""],
+    "links": [{
+        "link_1": {
+            "original": "",
+            "wayback_machine": "",
+            "archive_today": "",
+            "printed_pdf": "",
+            "local_pdf": "",
+            "html_reprint": ""
+        }
+    }]
+  
+  },
   {
     "date":"2022-02-21",
     "author":"Vladimir V. Putin",
