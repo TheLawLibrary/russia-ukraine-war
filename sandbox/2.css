@@ -1,0 +1,72 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+.outer {
+	display:table;
+	max-width:980px;
+	width:100%;
+	height:100%;
+	margin:auto;
+	background:#ccc;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+.inner {
+	display:table-cell;
+	padding:10px;
+	vertical-align:top
+}
+.footnote {
+	display:table-row
+}
+.footnote .inner {
+	height:1px;
+	border-top:5px solid red;
+}
+.fnote {
+	text-decoration:none;
+	color:red;
+	font-weight:bold;
+	font-size:80%;
+	vertical-align:super;
+	transition:all .5s;
+	display:inline-block;
+}
+.fnote:hover {
+	text-decoration:underline;
+	transform:scale(1.4);
+}
+.notes {
+	font-size:85%;
+	list-style:decimal;
+	margin:0 0 0 2em;
+	padding:0;
+}
+.notes li {margin:0 0 .5em;}
+.notes a {
+	color:blue;
+	text-decoration:none
+}
+.notes a:hover {text-decoration:underline;}
+.back {display:none}/* hide link if no js*/
+#footnotes:target, #footnotes li:target, .fnote:target {
+ background:yellow;
+ outline:0;
+}
+.fnote:focus {
+ background:yellow;
+ outline:0;
+}
+/* counters */
+.main {counter-reset:footnote;}
+.fnote:before {
+	counter-increment: footnote;
+	content: counter(footnote);
+}
+.notes {counter-reset:notes;}
+.fn b:after {
+	counter-increment:notes;
+	content: counter(notes);
+}

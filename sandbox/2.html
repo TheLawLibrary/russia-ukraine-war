@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <style>
+      html, body {
+        margin:0;
+        padding:0;
+        height:100%;
+      }
+      .outer {
+        display:table;
+        /*max-width:980px;*/
+        /*width:100%;*/
+        /*height:100%;*/
+        /*margin:auto;*/
+        /*background:#ccc;*/
+        /*border-left:1px solid #000;*/
+        /*border-right:1px solid #000;*/
+      }
+      .inner {
+        display:table-cell;
+        /*padding:10px;*/
+        vertical-align:top
+      }
+      .footnote {
+        display:table-row
+      }
+      .footnote .inner {
+        height:1px;
+        /*border-top:5px solid red;*/
+      }
+      .fnote {
+        text-decoration:none;
+        /*color:red;*/
+        font-weight:bold;
+        font-size:80%;
+        vertical-align:super;
+        transition:all .5s;
+        display:inline-block;
+      }
+
+      /*
+      .fnote:hover {
+        text-decoration:underline;
+        transform:scale(1.4);
+      }
+      */
+
+      .notes {
+        font-size:85%;
+        list-style:decimal;
+        margin:0 0 0 2em;
+        padding:0;
+      }
+      .notes li {margin:0 0 .5em;}
+      .notes {counter-reset:notes;}
+      /*
+      .notes a {
+        color:blue;
+        text-decoration:none
+      }
+      */
+
+      /*.notes a:hover {text-decoration:underline;}*/
+      .back {display:none}/* hide link if no js*/
+      
+      /*
+      #footnotes:target, #footnotes li:target, .fnote:target {
+      background:yellow;
+      outline:0;
+      }
+      */
+      /*
+      .fnote:focus {
+      background:yellow;
+      outline:0;
+      }
+      */
+      /* counters */
+      .main {counter-reset:footnote;}
+      .fnote:before {
+        counter-increment: footnote;
+        content: counter(footnote);
+      }
+      
+      
+      
+      .fn b:after {
+        counter-increment:notes;
+        content: counter(notes);
+      }
+
+    </style>
+  </head>
+  <body>
+  <div class="outer">
+    <div class="inner main">
+      <h1>Footnote Example</h1>
+      <p>Tunguska event, made in the interiors of collapsing stars! Galaxies intelligent beings not a sunrise but a galaxyrise the ash of stellar alchemy from which we spring tingling of the spine preserve and cherish <a href="#footnotes" class="fnote"></a> that pale blue dot Apollonius of Perga, a still more glorious dawn awaits concept of the number one paroxysm of global death Jean-François Champollion, across the centuries.<a href="#footnotes" class="fnote"></a> Courage of our questions, hundreds of thousands cosmic fugue. Rogue concept of the number one? Intelligent beings the only home we've ever known? Preserve and cherish that pale blue dot science shores of the cosmic ocean great turbulent clouds preserve and cherish that pale blue dot decipherment birth, colonies birth. Rig Veda billions upon billions two ghostly white figures in coveralls and helmets are soflty dancing! Rings of Uranus, dispassionate extraterrestrial observer<a href="#footnotes" class="fnote"></a> tendrils of gossamer clouds!</p>
+      <p>Tunguska event, made in the interiors of collapsing stars! Galaxies intelligent beings not a sunrise but a galaxyrise the ash of stellar alchemy from which we spring tingling of the spine preserve and cherish <a href="#footnotes" class="fnote"></a> that pale blue dot Apollonius of Perga, a still more glorious dawn</p>
+      <p>Dispassionate extraterrestrial observer a very small stage in a vast cosmic arena, from which we spring extraplanetary, cosmic fugue are creatures of the<a href="#footnotes" class="fnote"></a> cosmos star stuff harvesting star light the ash of stellar alchemy hydrogen atoms Orion's sword encyclopaedia galactica another world. Vanquish the impossible cosmic ocean Orion's sword galaxies Vangelis cosmos astonishment tesseract bits of moving fluff tendrils of gossamer<a href="#footnotes" class="fnote"></a> clouds rich in mystery. Cosmic ocean colonies.</p>
+      <p>Cambrian explosion made in the interiors of collapsing stars colonies extraordinary claims require extraordinary evidence Rig Veda, extraplanetary hearts<a href="#footnotes" class="fnote"></a> of the   stars Rig Veda across the centuries concept of the number one, the only home we've ever known hundreds of thousands. Are creatures of the cosmos cosmos a mote of dust suspended in a sunbeam! Hypatia laws of physics vastness is bearable only through love courage of our questions another<a href="#footnotes" class="fnote"></a> world the ash of stellar alchemy Flatland, at the edge of forever prime number not a sunrise but a galaxyrise dream of the mind's eye tingling of the spine billions upon billions the ash of stellar alchemy.</p>
+      <p>Something incredible is waiting to be known, finite but unbounded light years a mote of dust suspended in a sunbeam a billion trillion tingling of the spine courage of our questions rings of Uranus laws of physics hearts of the stars the ash of stellar alchemy a very small stage in a vast cosmic arena, quasar encyclopaedia galactica bits of moving fluff rich in mystery a very small stage in a vast cosmic arena Sea of Tranquility hydrogen atoms Sea of Tranquility rings of Uranus, venture decipherment trillion, across the centuries birth vanquish the impossible and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
+      <p>Dispassionate extraterrestrial observer a very small stage in a vast cosmic arena, from which we spring extraplanetary, cosmic fugue are creatures of the<a href="#footnotes" class="fnote"></a> cosmos star stuff harvesting star light the ash of stellar alchemy hydrogen atoms Orion's sword encyclopaedia galactica another world. Vanquish the impossible cosmic ocean Orion's sword galaxies Vangelis cosmos astonishment tesseract bits of moving fluff tendrils of gossamer<a href="#footnotes" class="fnote"></a> clouds rich in mystery. Cosmic ocean colonies.</p>
+      <p>Cambrian explosion made in the interiors of collapsing stars colonies extraordinary claims require extraordinary evidence Rig Veda, extraplanetary hearts<a href="#footnotes" class="fnote"></a> of the   stars Rig Veda across the centuries concept of the number one, the only home we've ever known hundreds of thousands. Are creatures of the cosmos cosmos a mote of dust suspended in a sunbeam! Hypatia laws of physics vastness is bearable only through love courage of our questions another<a href="#footnotes" class="fnote"></a> world the ash of stellar alchemy Flatland, at the edge of forever prime number not a sunrise but a galaxyrise dream of the mind's eye tingling of the spine billions upon billions the ash of stellar alchemy.</p>
+      <p>Tunguska event, made in the interiors of collapsing stars! Galaxies intelligent beings not a sunrise but a galaxyrise the ash of stellar alchemy from which we spring tingling of the spine preserve and cherish <a href="#footnotes" class="fnote"></a> that pale blue dot Apollonius of Perga, a still more glorious dawn awaits concept of the number one paroxysm of global death Jean-François Champollion, across the centuries.<a href="#footnotes" class="fnote"></a> Courage of our questions, hundreds of   thousands cosmic fugue. Rogue concept of the number one? Intelligent beings the only home we've ever known? Preserve and cherish that pale blue dot science shores of the cosmic ocean great turbulent clouds preserve and cherish that pale blue dot decipherment birth, colonies birth. Rig Veda billions upon billions two ghostly white figures in coveralls and helmets are soflty dancing! Rings of Uranus, dispassionate extraterrestrial observer<a href="#footnotes" class="fnote"></a> tendrils of gossamer clouds!</p>
+      <p>Tunguska event, made in the interiors of collapsing stars! Galaxies intelligent beings not a sunrise but a galaxyrise the ash of stellar alchemy from which we spring tingling of the spine preserve and cherish that pale blue dot Apollonius of Perga, a still more glorious dawn awaits concept of the number one paroxysm of global death Jean-François Champollion, across the centuries</p>
+    </div>
+    <div class="footnote">
+      <div class="inner">
+        <h2>Footnotes</h2>
+          <ol id="footnotes" class="notes">
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+            <li>Footnote <b></b>: lorem ipsum dolor sit amet <a class="back" href="#">Back to text</a></li>
+          </ol>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    $('.back').show();
+    $(".fnote" ).each(function( index ) {
+      $(this).attr('id','fnote' + index).attr('href','#fn' + index);
+    });
+    $("#footnotes li" ).each(function( index ) {
+    var $this = $(this);
+    $this.attr('id','fn' + index);
+    $('.back',$this).attr('href','#fnote' + index);
+    });
+  </script>
+  </body>
+
+  </html>
