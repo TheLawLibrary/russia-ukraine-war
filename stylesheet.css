@@ -18,6 +18,16 @@ i {
   font-family:old-standard-italic;
 }
 
+/* Small Caps */
+.sc {
+  font-variant: small-caps;
+ }
+ 
+ /* All Caps */
+ .ac {
+   text-transform:uppercase;
+ }
+
 .indent_1 {
   padding-left:0.25in;
 }
